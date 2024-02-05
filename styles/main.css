@@ -29,23 +29,23 @@ body {
 
   /* Historical book-like background color with yellow tint */
   background-color: #f5f0e1;
-  color: #4c4c4c; /* Dark gray text color */
+  color: #000; /* All black text color */
 }
 
 /* Heading Styles */
 h1 {
   font-variation-settings: 'wght' 850;
-  color: #4c4c4c; /* Dark gray heading color */
+  color: #000; /* All black heading color */
 }
 
 h2 {
   font-variation-settings: 'wght' 750;
-  color: #4c4c4c; /* Dark gray heading color */
+  color: #000; /* All black heading color */
 }
 
 h3, h4, h5, h6 {
   font-variation-settings: 'wght' 650;
-  color: #4c4c4c; /* Dark gray heading color */
+  color: #000; /* All black heading color */
 }
 
 /* Link Styles */
