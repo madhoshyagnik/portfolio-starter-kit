@@ -1,61 +1,131 @@
+/* Resetting Styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 /* Font Styles */
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
+  font-weight: 400;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
+
 @font-face {
   font-family: 'Inter var';
   font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
+  font-weight: 400;
   src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
   font-named-instance: 'Italic';
 }
 
 /* Body Styles */
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
-
-  /* Historical book-like background color with yellow tint */
+  font-family: 'Inter var', sans-serif;
   background-color: #f5f0e1;
-  color: #000000; /* All black text color */
+  color: #000; /* All black text color */
+  line-height: 1.6;
 }
 
 /* Heading Styles */
-h1 {
-  font-variation-settings: 'wght' 850;
-  color: #000000; /* All black heading color */
-}
-
-h2 {
-  font-variation-settings: 'wght' 750;
-  color: #000000; /* All black heading color */
-}
-
-h3, h4, h5, h6 {
-  font-variation-settings: 'wght' 650;
-  color: #000000; /* All black heading color */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #000; /* All black heading color */
 }
 
 /* Link Styles */
 .prose a {
-  color: #4b2402; /* Brownish link color */
+  color: #8c613c; /* Brownish link color */
+  text-decoration: underline;
 }
 
 /* Navigation Link Styles */
 .nav-line .nav-link {
-  color: #4b2402; /* Brownish navigation link color */
+  color: #8c613c; /* Brownish navigation link color */
 }
 
 /* Responsive Styles */
