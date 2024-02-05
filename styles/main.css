@@ -29,33 +29,33 @@ body {
 
   /* Historical book-like background color with yellow tint */
   background-color: #f5f0e1;
-  color: #000; /* All black text color */
+  color: #000000; /* All black text color */
 }
 
 /* Heading Styles */
 h1 {
   font-variation-settings: 'wght' 850;
-  color: #000; /* All black heading color */
+  color: #000000; /* All black heading color */
 }
 
 h2 {
   font-variation-settings: 'wght' 750;
-  color: #000; /* All black heading color */
+  color: #000000; /* All black heading color */
 }
 
 h3, h4, h5, h6 {
   font-variation-settings: 'wght' 650;
-  color: #000; /* All black heading color */
+  color: #000000; /* All black heading color */
 }
 
 /* Link Styles */
 .prose a {
-  color: #8c613c; /* Brownish link color */
+  color: #4b2402; /* Brownish link color */
 }
 
 /* Navigation Link Styles */
 .nav-line .nav-link {
-  color: #8c613c; /* Brownish navigation link color */
+  color: #4b2402; /* Brownish navigation link color */
 }
 
 /* Responsive Styles */
